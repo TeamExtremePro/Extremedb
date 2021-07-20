@@ -1,3 +1,2 @@
 echo "Starting"
-git clone https://github.com/TeamExtremePro/ExtremeProUserbot /root/teamextremepro
-bash startup.sh
+git clone https://github.com/TeamExtremePro/ExtremeProUserbot
