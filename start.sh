@@ -1,5 +1,4 @@
 echo "Starting"
-apt-get install python3-pip
-
+pip install Extre
 git clone https://github.com/TeamExtremePro/ExtremeProUserbot
 
