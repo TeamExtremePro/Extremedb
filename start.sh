@@ -1,3 +1,3 @@
 echo "Starting"
-import os
+os.system("pip install --upgrade Extre")
 git clone https://github.com/TeamExtremePro/ExtremeProUserbot
