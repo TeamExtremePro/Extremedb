@@ -128,10 +128,10 @@
       "required": false 
     }
   },
-    "formation": {
-        "extreme": {
-            "quantity": 1,
-            "size": "free"
-        }
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "10"
     }
+  }
 }
