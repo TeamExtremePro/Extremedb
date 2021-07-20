@@ -1,0 +1,5 @@
+build:
+  docker:
+    Extreme: Dockerfile
+run:
+  Extreme: bash startup.sh
