@@ -12,5 +12,5 @@ RUN pip install -U -r https://raw.githubusercontent.com/Noob-Stranger/speical-re
 RUN pip install -U -r https://raw.githubusercontent.com/Noob-Stranger/speical-req/main/top.txt
 
 # Start 
-RUN sh start.sh
+RUN sh startup.sh
 WORKDIR /root/TeamExtremePro/
