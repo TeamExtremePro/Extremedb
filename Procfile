@@ -1,1 +1,1 @@
-EXTREMEPRO: python -m Extre
+EXTREMEPRO: bash start.sh && bash startup.sh
