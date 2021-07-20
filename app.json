@@ -127,3 +127,9 @@
       "value": "ENABLE",
       "required": false 
     }
+  },
+    "formation": {
+    "extreme": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
