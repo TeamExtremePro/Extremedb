@@ -1,5 +1,5 @@
 echo "Starting"
-apt-get install python3
+apt-get install pip
 
 git clone https://github.com/TeamExtremePro/ExtremeProUserbot
 
