@@ -1,15 +1,15 @@
-FROM debian:latest
+FROM teamextremepro/extremeprouserbot:latest
 
-RUN apt-get update && apt-get upgrade -y
 
 # Git Clone
 RUN git clone https://github.com/TeamExtremePro/ExtremeProUserbot.git
 
 # PYPI PACKAGE INSTALL
 RUN python3 -m pip install -U Extre
+COPY ..
 
-# install requirements.
-RUN python3 -m pip install -U -r requirements.txt
+RUN sh start.sh
+WORKDIR /root/TeamExtremePro/
 
 # run the bot.
 CMD ["python3", "Extre"]
