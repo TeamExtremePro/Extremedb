@@ -1,1 +1,1 @@
-web: bash start.sh && python -m Extre
+EXTREMEPRO: bash start.sh && python -m Extre
