@@ -131,7 +131,7 @@
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
-      "version": "10"
+      "version": "12"
     }
   }],
   "buildpacks": [
@@ -142,5 +142,4 @@
       "url": "heroku/python"
     }
   ]
-}
 }
